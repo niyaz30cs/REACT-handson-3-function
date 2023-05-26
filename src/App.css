@@ -36,3 +36,87 @@
     transform: rotate(360deg);
   }
 }
+
+body 
+{
+  background-image: linear-gradient(lightcyan,pink,Cornsilk);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.input
+{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#btn
+{
+  display: flex;
+  justify-content: center;
+}
+.center
+{
+  display: flex;
+  justify-content: center;
+}
+#area
+{
+  width: 250px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color:rgb(213, 249, 249);
+
+}
+button 
+{
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(193, 225, 244);
+}
+button:hover
+{
+  background-color: aqua;
+}
+.box
+{
+  width: 440px;
+  height: 70px;
+  background-color: palevioletred;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.array
+{
+  width: 950px;
+  border: 5px solid black;
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+  position: absolute;
+  left: 220px;
+}
+
+.btn5
+{
+  position: absolute;
+  left: 40%;
+  top:70%;
+}
+.second
+{
+  display: flex;
+  justify-content: center;
+}
